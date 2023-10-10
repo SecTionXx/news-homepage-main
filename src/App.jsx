@@ -63,8 +63,8 @@ function App() {
   ]
   return (
     <div
-      className={`flex flex-col items-center w-[375px] p-4  ${
-        isDesktopMode ? 'flex flex-col w-[1440px] ' : ''
+      className={`flex flex-col items-center p-4  ${
+        isDesktopMode ? 'flex flex-col' : ''
       }`}
     >
       <header className="flex flex-row justify-between w-full mb-4">
